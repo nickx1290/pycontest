@@ -7,4 +7,4 @@ install:
     - pip install matplotlib scipy numpy hypothesis
 
 script:
-    - py.test solutions
+    - pytest solutions
